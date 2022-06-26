@@ -6,10 +6,10 @@
 Console.WriteLine("Введите число");
 string numberStr = Console.ReadLine();
 int number = int.Parse(numberStr);
-for (int count = 1; count <= number; count++)
+for (int i = 1; i <= number; i++)
 {
-    if (count%2 == 0)
+    if (i%2 == 0)
     {
-        Console.WriteLine(count);
+        Console.WriteLine(i);
     }
 }
