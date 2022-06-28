@@ -6,6 +6,6 @@ int secondNumber = (number/10)%10; //выделение второй цифры
 int thirdNumber = number%10; //выделение третьей цифры
 Console.WriteLine("Полученное число {0}{1}", firstNumber, thirdNumber);
 
-
+//Рандомное трехзначное число, вывод первой и третьей цифр
 
 
