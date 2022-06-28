@@ -7,12 +7,12 @@ Console.WriteLine("Введите второе число");
 string secondNumberStr = Console.ReadLine();
 int secondNumber = int.Parse(secondNumberStr); 
 int result = firstNumber % secondNumber; //переменная для вывода в ответ остатка 
-if(result == 0)
+if(result == 0)  //значит делится без остатка 
 {
     Console.WriteLine("Кратно");
 }
 
-else
+else // если делится с отстатком 
 {
             Console.WriteLine("Не кратно. Остаток {0}", result);
 }
